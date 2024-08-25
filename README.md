@@ -64,6 +64,12 @@ Then we  use API key for **GEMINI PRO MODEL** with its outstanding context windo
 ANd after getting answers from Gemini we conduct PDF document
 
 __________________________________________
+
+**./pgres_utils.py**
+
+utils to create connection and insert\extract data
+
+__________________________________________
 **./AI_DIGEST_July_2024.pdf**
 
 Example of the condicted document
