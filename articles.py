@@ -66,10 +66,6 @@ def get_openalex_articles(queries, from_date, to_date, max_results):
     return all_articles
 
 
-# Пример использования
-
-
-
 def inverted_index_to_abstract(inv_index):
     if inv_index is not None:
         l_inv = [(w, p) for w, pos in inv_index.items() for p in pos]
@@ -78,7 +74,7 @@ def inverted_index_to_abstract(inv_index):
 if __name__ == "__main__":
     to_date = datetime.today().strftime('%Y-%m-%d')
     from_date = (datetime.today() - timedelta(days=60)).strftime('%Y-%m-%d')
-    max_results = 100
+    max_results = 200
 
     articles = get_openalex_articles(queries_to_extract_source_articles, from_date, to_date, max_results)
 

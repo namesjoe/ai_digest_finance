@@ -1,3 +1,10 @@
+queries_to_extract_source_articles = ["global economy",
+                                      "stock exchange",
+                                      "financial system",
+                                      "emerging markets",
+                                      'cryptocurrency',
+                                      'blockchain']
+
 questions = [
 "Summarize the key findings  in all abstract parts of this articlesfrom the provided research articles. Please describe widely and citate most intersting.",
 "What are the main themes or trends emerging from these articles? Take into account only abstracts (values)",
