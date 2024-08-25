@@ -1,0 +1,7 @@
+shadowsocks @ git+https://github.com/shadowsocks/shadowsocks.git@5ff694b2c2978b432918dea6ac104706b25cbf48
+openai==1.37.0
+psycopg2-binary==2.9.3
+gnews==0.3.7
+newspaper4k==0.9.3.1
+selenium==4.23.1
+tiktoken==0.7.0
