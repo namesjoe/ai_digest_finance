@@ -23,9 +23,10 @@ _______________
 
 **./questions.py**
 
-queries_to_extract_source_articles: list of queries to extract articles from Openalex Database
-questions: List of questions we ask Gemini Pro model to make sections in result PDF document
+`queries_to_extract_source_articles`: list of queries to extract articles from Openalex Database
 
+`questions`: List of questions we ask Gemini Pro model to make sections in result PDF document
+__________________________________________
 
 **./articles.py**
 
@@ -43,8 +44,8 @@ Here we extract articles from OpenALex and store it in Postgres DB table
 	CONSTRAINT science_articles_title_published_date_key UNIQUE (title, published_date)
 );`
 
-*If You gather data about multiples fields of study (FOS), you need to adjust it to have FOS field to identify right which articles should be used for the report*
-
+*If You gather data about multiples fields of study (FOS), there is need to adjust schema to have FOS field to identify right which articles should be used for the report*
+__________________________________________
 
 **./gemini_report.py**
 
@@ -62,7 +63,7 @@ Here we extract articles from Postges DB we gathered articles into using followi
 Then we  use API key for **GEMINI PRO MODEL** with its outstanding context window over 1 million tokens and transfer extracted articles to the model, after that we asking questions (**questions variable**) to makes sections it our PDF Document later
 ANd after getting answers from Gemini we conduct PDF document
 
-
+__________________________________________
 **./AI_DIGEST_July_2024.pdf**
 
 Example of the condicted document
