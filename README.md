@@ -18,7 +18,7 @@ We also use Gemini Pro model with its vast context window to qustion it with out
 
 _______________
 
-## Architecture
+## Architecture and Scripts Description
 
 
 **./questions.py**
