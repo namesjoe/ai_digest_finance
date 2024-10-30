@@ -19,7 +19,7 @@ We also use Gemini Pro model with its vast context window to qustion it with out
 _______________
 
 ## Architecture and Scripts Description
-
+<img src="./Untitled Diagram.drawio-2.svg">
 
 **./questions.py**
 
