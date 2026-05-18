@@ -29,7 +29,6 @@ def get_openalex_articles(queries: list, from_date: str, to_date: str):
     return data['results']
 
 
-
 def get_openalex_articles(queries, from_date, to_date, max_results):
     #query_str = ','.join(queries)
     for query in queries:
@@ -77,7 +76,6 @@ if __name__ == "__main__":
     max_results = 200
 
     articles = get_openalex_articles(queries_to_extract_source_articles, from_date, to_date, max_results)
-
     logger.info(f"Found {len(articles)} articles")
     updated_abstract_articles = []
     for art in articles:
@@ -104,5 +102,3 @@ if __name__ == "__main__":
         except Exception as e:
             logger.error(e)
             continue
-
-
