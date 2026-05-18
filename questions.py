@@ -28,4 +28,3 @@ def replacer(str_value: str, replace_items: list, prefix=True):
         for ri in replace_items:
             str_value = str_value.replace(ri, f"{ri}\n")
     return str_value
-
