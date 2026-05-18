@@ -72,7 +72,7 @@ utils to create connection and insert\extract data
 __________________________________________
 **./AI_DIGEST_July_2024.pdf**
 
-Example of the condicted document
+<<< Example of the condicted document 
 
 
 
